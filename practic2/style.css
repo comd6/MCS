@@ -12,8 +12,8 @@
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    flex-direction: column;
-}
+}    /* flex-direction: column; */
+
 .main-block {
     display: flex;
     /* justify-content: space-around; */
