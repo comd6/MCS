@@ -24,12 +24,13 @@ ul {
   .box {
     margin: 0 25px; 
     padding: 33px;
-    border: solid;
+    border: 5px solid;
     border-color: #E5E000;
     height: 650px;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 30px;
+    align-items: center;
   }
   .footer {
     display: flex;
