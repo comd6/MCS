@@ -7,15 +7,30 @@
 .header {
     display: flex;
     justify-content: space-between;
+    /* position: fixed; */
+    width: 100%;
     position: fixed;
 }
 
-.boutle-container {
+.logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    list-style: none;
+
 }
 
-.boutle-name {
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.hero-block {
+    background-image: url(./imagie/evian_origins_logo.png);
+}
+
+.bottles {
     display: flex;
     justify-content: space-around;
+
 }
+
